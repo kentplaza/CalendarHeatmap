@@ -28,7 +28,7 @@ This [jQuery] plugin allows to conveniently display data like contributions on a
 ## Data
 
 ```javascript
-var data = [{count: 2, sum: 99.80 date: "2017-09-23"}, ...]
+var data = [{count: 2, sum: 99.80, date: "2017-09-23"}, ...]
 ```
 The date needs to have the following format: `YYYY-MM-DD`.
 
