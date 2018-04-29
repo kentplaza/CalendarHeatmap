@@ -28,9 +28,9 @@ This [jQuery] plugin allows to conveniently display data like contributions on a
 ## Data
 
 ```javascript
-var data = [{count: 2, sum:99.80 date: "2017-09-23"}, ...]
+var data = [{count: 2, sum: 99.80 date: "2017-09-23"}, ...]
 ```
-The date needs to have the following format: `YYYY-MM-DD`. data can be supplier sum and count. Heat map can be choose aggregate field.
+The date needs to have the following format: `YYYY-MM-DD`.
 
 ## Options
 
@@ -50,6 +50,9 @@ The year of the last month shown. Use the four letter notation, e.g. `2017`. If 
 
 ### `coloring`
 There is a set of different color gradients available. By default `standard` is selected.
+
+### `field`
+There is a set of aggregate field which is selected as long as field exists in data.
 
 #### Gradients
  `earth`, `electric`, `viridis`, `picknick`, `blue`, `green`, `teal`, `red`, `standard`
